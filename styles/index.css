@@ -122,3 +122,16 @@ a {
     font-size: 3rem;
     font-weight: 400;
 }
+
+.stack-container {
+    flex-wrap: wrap;
+    padding: 3rem 17rem;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.stack-item {
+    width: 10rem;
+    height: 10rem;
+}
