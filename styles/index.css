@@ -2,7 +2,6 @@
 
 /* 
 fonts prop
-font-family: 'Montserrat', sans-serif;
 
 !for main logo
 font-family: 'Permanent Marker', cursive;
@@ -10,4 +9,5 @@ font-family: 'Permanent Marker', cursive;
 
 html {
     font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
