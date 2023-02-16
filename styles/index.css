@@ -110,3 +110,9 @@ a {
     gap: 3rem;
     align-items: center;
 }
+
+.title {
+    font-size: 4.8rem;
+    color: #42446E;
+    font-weight: 700;
+}
