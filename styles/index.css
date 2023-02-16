@@ -42,3 +42,11 @@ a {
     font-weight: 400;
     text-transform: uppercase;
 }
+
+.header-nav {
+    gap: 3rem;
+}
+
+.header-link {
+    font-size: 2rem;
+}
