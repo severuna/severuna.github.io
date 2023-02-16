@@ -115,4 +115,6 @@ a {
     font-size: 4.8rem;
     color: #42446E;
     font-weight: 700;
+    text-transform: capitalize;
 }
+
