@@ -105,7 +105,7 @@ a {
     background: linear-gradient(to top right, #13B0F5 0%, #E70FAA 100%) border-box;
 }
 
-.stack, .projects {
+.section {
     padding: 6rem;
     gap: 3rem;
     align-items: center;
