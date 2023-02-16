@@ -1,1 +1,59 @@
 @import url('/styles/index.css');
+
+.main {
+    height: max-content;
+    align-items:normal;
+    gap: 10rem;
+    padding: 10rem;
+}
+
+.about-description {
+    gap: 5rem;
+}
+
+.about-list {
+    gap: 3rem;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.list-item {
+    display: flex;
+    padding: 1rem;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: 1rem;
+    width: 30rem;
+    height: 10rem;
+    box-shadow: 5px 5px 20px 5px #666666;
+}
+
+.work-list {
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.work-item {
+    justify-content: space-between;
+    align-items: end;
+    padding: 1rem 0;
+    height: 7rem;
+    border-bottom: 1px solid #EBEAED;
+}
+
+.work-description {
+    gap: 2rem;
+}
+
+.work-title {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.work-place, .work-period {
+    font-size: 1.4rem;
+    width: max-content;
+}
