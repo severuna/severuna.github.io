@@ -59,3 +59,41 @@ a {
     height: 80vh;
 }
 
+.main-descripion {
+    gap: 1rem;
+    justify-content: left;
+}
+
+.main-title {
+    font-size: 4.8rem;
+    font-weight: 700;
+    color: #42446E;
+}
+
+.main-title span {
+    background: linear-gradient(to right, #13B0F5, #E70FAA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-subtitle {
+    color: main-subtitle;
+    font-size: 3.8rem;
+    font-weight: 700;
+}
+
+.main-btn {
+    width: max-content;
+    padding: 1rem 2rem;
+    font-size: 4rem;
+    border: 1px solid #666666;
+    border-radius: 1rem;
+    background-color: #666666;
+    color: #f5f5f5;
+    transition: all 0.5s ease-in-out;
+}
+
+.main-btn:hover {
+    background-color: #f5f5f5;
+    color: #666666;
+}
