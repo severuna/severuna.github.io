@@ -50,3 +50,12 @@ a {
 .header-link {
     font-size: 2rem;
 }
+
+.main {
+    padding: 2rem 17rem;
+    gap: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+}
+
