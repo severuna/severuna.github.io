@@ -127,6 +127,7 @@ a {
     flex-wrap: wrap;
     padding: 3rem 17rem;
     gap: 5rem;
+    height: 35rem;
     justify-content: center;
     align-items: center;
 }
@@ -139,7 +140,32 @@ a {
     transition: all .7s ease-in-out;
 }
 
+.stack-item:nth-child(odd) {
+    animation: 1s infinite alternate bubbleUp;
+}
+
+.stack-item:nth-child(even) {
+    animation: 1s infinite alternate-reverse bubbleUp;
+}
+
 .stack-item:hover {
     background-color: rgba(0, 0, 0, 0.3);
     transform: scale(1.1);
+}
+
+@keyframes bubbleUp {
+    from {
+        margin-top: -1.5rem;
+    }
+    to {
+        margin-top: 0;
+    }
+}
+@keyframes bubbleDown {
+    from {
+        margin-top: 1.5rem;
+    }
+    to {
+        margin-top: 0;
+    }
 }
