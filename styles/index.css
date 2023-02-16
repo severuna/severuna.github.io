@@ -118,3 +118,7 @@ a {
     text-transform: capitalize;
 }
 
+.subtitle {
+    font-size: 3rem;
+    font-weight: 400;
+}
