@@ -169,3 +169,22 @@ a {
         margin-top: 0;
     }
 }
+
+.footer {
+    padding: 2rem 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-contact {
+    gap: 3rem;
+    align-items: center;
+}
+
+.footer-contact .subtitle {
+    border-bottom: 1px solid #666666;
+}
+
+.footer-item img{
+    width: 7rem;
+}
