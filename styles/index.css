@@ -29,3 +29,9 @@ html {
     display: flex;
     flex-direction: column;
 }
+
+.header {
+    padding: 2rem 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
