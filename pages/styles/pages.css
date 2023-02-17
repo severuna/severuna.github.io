@@ -4,7 +4,7 @@
     min-height: 100vh;
     height: max-content;
     align-items:normal;
-    gap: 10rem;
+    gap: 5rem;
     padding: 10rem;
 }
 
@@ -59,7 +59,21 @@
     width: max-content;
 }
 
-.contact {
-    padding: 10rem;
-    gap: 3rem;
+.contact-list {
+    gap: 2rem;
+    list-style: url('/pages/images/company-logo.svg');
+}
+
+.contact-item {
+    align-items: center;
+    justify-content: left;
+    gap: 2rem;
+}
+
+.contact-item img{
+    width: 10rem;
+}
+
+.contact-item a {
+    font-size: 3rem;
 }
