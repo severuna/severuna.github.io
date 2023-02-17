@@ -1,6 +1,7 @@
 @import url('/styles/index.css');
 
 .main {
+    min-height: 100vh;
     height: max-content;
     align-items:normal;
     gap: 10rem;
@@ -56,4 +57,9 @@
 .work-place, .work-period {
     font-size: 1.4rem;
     width: max-content;
+}
+
+.contact {
+    padding: 10rem;
+    gap: 3rem;
 }
