@@ -1,0 +1,1 @@
+const headerNav = document.querySelector('.header-nav');
