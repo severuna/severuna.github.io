@@ -1,0 +1,11 @@
+.header {
+    width: 100%;
+    padding: 2rem 3rem;
+    justify-content: space-around;
+    background-color: #232323;
+}
+
+.header-item {
+    font-size: 3rem;
+    color: #e5e5e5;
+}
