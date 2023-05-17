@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
-
 .header {
     width: 24rem;
     padding: 8rem 3rem;
@@ -14,7 +12,7 @@
     color: var(--color-light);
     font-weight: 400;
     text-decoration: line-through;
-    font-family: 'Cabin Sketch', cursive;
+    font-family: var(--nav-ff);
     text-transform: uppercase;
     transition: all 1s ease;
 }

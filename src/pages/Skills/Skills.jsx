@@ -1,10 +1,11 @@
 import React from 'react';
 import style from '../module/Page.module.css';
+import Title from '../module/Title/Title';
 
 const Skills = () => {
     return (
         <div className={`${style.content} column`}>
-            <h1>Skills</h1>
+            <Title content={'Skills'}/>
         </div>
     );
 };
