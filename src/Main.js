@@ -7,11 +7,10 @@ import Skills from './pages/Skills/Skills';
 import Job from './pages/Job/Job';
 import Works from './pages/Works/Works';
 import Contacts from './pages/Contacts/Contacts';
-import Footer from './components/Footer/Footer';
 
 const Main = () => {
     return (
-        <div className='main column'>
+        <div className='main row'>
             <NavBar />
             <Routes>
                 <Route path='/works' element={<Works />} />
@@ -20,7 +19,6 @@ const Main = () => {
                 <Route path='/contacts' element={<Contacts />} />
                 <Route index element={<Home />} />
             </Routes>
-            <Footer />
         </div>
     );
 };

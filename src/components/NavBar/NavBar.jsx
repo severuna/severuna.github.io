@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
-        <header className='header row'>
+        <header className='header column'>
             <Link to={`/`} className='header-item'>Home</Link>
             <Link to={`/works`} className='header-item'>Works</Link>
             <Link to={`/skills`} className='header-item'>Skills</Link>
