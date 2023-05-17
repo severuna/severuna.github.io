@@ -1,0 +1,24 @@
+.header {
+    width: 24rem;
+    padding: 8rem 4rem;
+    align-items:center;
+    justify-content: space-around;
+    height: 100vh;
+    border-right: 3px dashed rgba(167, 164, 164, 0.507);
+}
+
+.header-item {
+    font-size: 2.4rem;
+    color: var(--color-light);
+    font-weight: 400;
+    text-decoration: line-through;
+    font-family: var(--nav-ff);
+    text-transform: uppercase;
+    transition: all 1s ease;
+}
+
+.active {
+    transform: scale(1.5);
+    font-weight: 700;
+    text-decoration: none;
+}
