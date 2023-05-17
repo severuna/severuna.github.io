@@ -3,12 +3,12 @@ import style from '../module/Page.module.css';
 import Title from '../module/Title/Title';
 
 
-const Job = () => {
+const Experience = () => {
     return (
         <div className={`${style.content} column`}>
-            <Title content={'Job'}/>
+            <Title variant={'Experience'}/>
         </div>
     );
 };
 
-export default Job;
+export default Experience;

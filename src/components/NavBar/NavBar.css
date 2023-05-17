@@ -1,6 +1,6 @@
 .header {
     width: 24rem;
-    padding: 8rem 3rem;
+    padding: 8rem 4rem;
     align-items:center;
     justify-content: space-around;
     height: 100vh;
@@ -8,7 +8,7 @@
 }
 
 .header-item {
-    font-size: 2.7rem;
+    font-size: 2.4rem;
     color: var(--color-light);
     font-weight: 400;
     text-decoration: line-through;

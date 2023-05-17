@@ -5,7 +5,7 @@ import Title from '../module/Title/Title';
 const Works = () => {
     return (
         <div className={`${style.content} column`}>
-            <Title content={'Works'}/>
+            <Title variant={'Works'}/>
         </div>
     );
 };
