@@ -1,12 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+
 .header {
-    width: 20rem;
-    padding: 2rem 3rem;
+    width: 24rem;
+    padding: 8rem 3rem;
+    align-items:center;
     justify-content: space-around;
-    background-color: #232323;
     height: 100vh;
+    border-right: 3px dashed rgba(167, 164, 164, 0.507);
 }
 
 .header-item {
-    font-size: 3rem;
-    color: #e5e5e5;
+    font-size: 2.7rem;
+    color: var(--color-light);
+    font-weight: 400;
+    text-decoration: line-through;
+    font-family: 'Cabin Sketch', cursive;
+    text-transform: uppercase;
+    transition: all 1s ease;
+}
+
+.active {
+    transform: scale(1.5);
+    font-weight: 700;
+    text-decoration: none;
 }

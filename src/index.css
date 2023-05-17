@@ -23,3 +23,8 @@ a {
   display: flex;
   flex-direction: column;
 }
+
+:root {
+  --color-black: #121212;
+  --color-light: #ffffff;
+}
