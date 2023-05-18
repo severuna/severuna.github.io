@@ -10,7 +10,7 @@
 .header-item {
     font-size: 2.4rem;
     color: var(--color-light);
-    font-weight: 400;
+    font-weight: var(--nav-fw);
     text-decoration: line-through;
     font-family: var(--nav-ff);
     text-transform: uppercase;

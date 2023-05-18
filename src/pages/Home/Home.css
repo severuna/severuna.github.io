@@ -17,10 +17,10 @@
 }
 
 .name {
-    font-family: var(--name-ff);
-    font-weight: var(--name-fw);
+    font-family: var(--nav-ff);
+    font-weight: var(--nav-fw);
     font-size: 6rem;
-    color: #1CA593;
+    color: var(--color-green);
 }
 
 .home-img {
