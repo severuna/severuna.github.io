@@ -1,7 +1,11 @@
-.content {
+.page {
     padding: 4rem 5rem;
     width: 100%;
     height: 100vh;
     background-color: var(--color-black);
     color: var(--color-light);
+}
+
+.content {
+    padding: 4rem;
 }

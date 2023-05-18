@@ -1,0 +1,28 @@
+.home {
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.home-text {
+    width: 45%;
+    align-items: center;
+    gap: 3rem;
+}
+
+.home-text p {
+    font-family: var(--main-ff);
+    font-weight: var(--subtitle-fw);
+    font-size: 3rem;
+}
+
+.name {
+    font-family: var(--name-ff);
+    font-weight: var(--name-fw);
+    font-size: 6rem;
+    color: #1CA593;
+}
+
+.home-img {
+    width: 45%;
+}

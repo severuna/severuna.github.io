@@ -1,5 +1,7 @@
 .container {
     gap: 3rem;
+    height: 7rem;
+    align-items: center;
 }
 
 .title {
