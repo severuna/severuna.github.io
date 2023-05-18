@@ -11,7 +11,7 @@ const Home = () => {
             <div className={`${style.content} home row`}>
                 <div className='home-text column'>
                     <p>I'm</p>
-                    <h1 className='name'>Oksana Fomenkova</h1>
+                    <h1 className='name'>Oksana  Fomenkova</h1>
                     <p>Front-End React Developer</p>
                     <div className='home-text_contact row'>
                         
