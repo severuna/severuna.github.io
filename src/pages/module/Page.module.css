@@ -1,18 +1,7 @@
-<<<<<<< HEAD
 .page {
-=======
-.content {
->>>>>>> a7d5c72ef9951687df024708ec2ac45f435027e3
     padding: 4rem 5rem;
     width: 100%;
     height: 100vh;
     background-color: var(--color-black);
     color: var(--color-light);
-<<<<<<< HEAD
-}
-
-.content {
-    padding: 4rem;
-=======
->>>>>>> a7d5c72ef9951687df024708ec2ac45f435027e3
 }
