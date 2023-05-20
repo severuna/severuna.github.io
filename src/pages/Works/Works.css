@@ -1,0 +1,28 @@
+.works {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7rem;
+    height: 100%;
+    padding-top: 3rem;
+}
+
+.works-btn {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 3px dashed rgba(167, 164, 164, 0.507);
+    background-color: var(--color-black);
+    color: var(--color-light);
+    font-weight: 900;
+    font-family: var(--nav-ff);
+    font-size: 8rem;
+    transition: all 1s ease;
+}
+
+.works-btn:hover {
+    background-color: var(--color-light);
+    color: var(--color-green);
+    transform: scale(1.1);
+    border: 3px dashed var(--color-black);
+}
