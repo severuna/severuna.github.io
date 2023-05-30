@@ -4,7 +4,7 @@ import Title from '../module/Title/Title';
 import './Works.css';
 import Work from './Work/Work';
 
-const Works = () => {
+const Works = ( ) => {
 
     let [ currentIndex, setCurrentIndex ] = useState(0);
 

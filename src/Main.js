@@ -9,6 +9,7 @@ import Works from './pages/Works/Works';
 import Contacts from './pages/Contacts/Contacts';
 
 const Main = () => {
+
     return (
         <div className='main row'>
             <NavBar />
