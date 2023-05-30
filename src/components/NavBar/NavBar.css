@@ -1,4 +1,5 @@
 .header {
+    position: fixed;
     width: 24rem;
     padding: 8rem 4rem;
     align-items:center;
