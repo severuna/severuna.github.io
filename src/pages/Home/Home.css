@@ -8,10 +8,10 @@
     width: 45%;
     align-items: center;
     gap: 3rem;
+    text-align: center;
 }
 
 .home-text p {
-    font-family: var(--main-ff);
     font-weight: var(--subtitle-fw);
     font-size: 3rem;
 }

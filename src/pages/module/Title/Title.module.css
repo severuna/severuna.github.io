@@ -11,8 +11,7 @@
     padding-bottom: 2rem;
     width: 100%;
     border-bottom: 3px dashed rgba(167, 164, 164, 0.507);
-    font-family: var(--nav-ff);
-    font-weight: var(--nav-fw);
+    font-weight: var(--name-fw);
 }
 
 .logo {

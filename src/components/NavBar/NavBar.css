@@ -21,11 +21,11 @@
 }
 
 .header-item{
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     color: var(--color-light);
-    font-weight: var(--nav-fw);
+    font-weight: var(--name-fw);
     text-decoration: line-through;
-    font-family: var(--nav-ff);
+    font-family: var(--main-ff);
     text-transform: uppercase;
     transition: all 1s ease;
 }

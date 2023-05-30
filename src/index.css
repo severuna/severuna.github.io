@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@400;500;700;800&display=swap');
 
 html {
   font-size: 10px;
+  font-family: 'Shantell Sans', cursive;
 }
 
 *,
@@ -31,11 +31,7 @@ a {
   --color-black: #121212;
   --color-light: #ffffff;
   --color-green: #1CA593;
-  --nav-ff: 'Cabin Sketch', cursive;
-  --nav-fw: 700;
-  --main-ff: 'Shantell Sans', cursive;
   --name-fw: 800;
-  --title-fw: 900;
   --subtitle-fw: 700;
   --main-fw: 500;
   --alt-fw: 400;
