@@ -12,7 +12,7 @@ const Skills = () => {
     let skills = [];
 
     SKILLS_LIST.list.forEach((element) => {
-        skills.push(<SkillsItem key={element.id} {...element} />)
+        skills.push(<SkillsItem key={element.id + Math.random()} {...element} />)
     })
 
     return (

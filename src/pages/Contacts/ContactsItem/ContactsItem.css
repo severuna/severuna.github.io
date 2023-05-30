@@ -1,0 +1,14 @@
+.contact {
+    align-items: center;
+    gap: 2rem;
+}
+
+.contact-img {
+    width: 10rem;
+}
+
+.contact-title {
+    color: var(--color-green);
+    font-weight: var(--subtitle-fw);
+    font-size: 3rem;
+}

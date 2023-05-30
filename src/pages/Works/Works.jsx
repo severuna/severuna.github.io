@@ -12,7 +12,7 @@ const Works = ( ) => {
     let elements = [];
 
     WORKS_LIST.list.forEach((element) => {
-        elements.push(<WorkItem key={element.id} {...element} />)
+        elements.push(<WorkItem key={element.id + Math.random()} {...element} />)
     });
     
     return (

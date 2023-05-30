@@ -18,6 +18,10 @@ import redux from '../../assets/img/redux.svg';
 import router from '../../assets/img/router.svg';
 import sass from '../../assets/img/sass.svg';
 import sc from '../../assets/img/styled-components.svg';
+import linkedin from '../../assets/img/linkedin.svg';
+import telegram from '../../assets/img/telegram.svg';
+import mail from '../../assets/img/mail.svg';
+import tel from '../../assets/img/tel.svg';
 
 const UA_LANG = {
     nav: ['домашня', 'роботи', 'навички', 'досвід', 'контакти'],
@@ -27,6 +31,32 @@ const UA_LANG = {
     },
     contacts: {
         title: 'контакти',
+        list: [
+            {
+                id: 0,
+                title: 'Зателефонувати мені: +380952008413',
+                link: 'tel:+380952008413',
+                src: tel
+            },
+            {
+                id: 1,
+                title: 'Написати мені: oxxxyfomenkova@gmail.com',
+                link: 'mailto:oxxxyfomenkova@gmail.com',
+                src: mail
+            },
+            {
+                id: 2,
+                title: 'Telegram',
+                link: 'https://t.me/in_the_underworld',
+                src: telegram
+            },
+            {
+                id: 3,
+                title: 'LinkedIn',
+                link: 'https://www.linkedin.com/in/severuna/',
+                src: linkedin
+            },
+        ]
     },
     experience: {
         title: 'досвід',
@@ -134,6 +164,32 @@ const ENG_LANG = {
     },
     contacts: {
         title: 'contacts',
+        list: [
+            {
+                id: 0,
+                title: 'Call me: +380952008413',
+                link: 'tel:+380952008413',
+                src: tel
+            },
+            {
+                id: 1,
+                title: 'Write to me: oxxxyfomenkova@gmail.com',
+                link: 'mailto:oxxxyfomenkova@gmail.com',
+                src: mail
+            },
+            {
+                id: 2,
+                title: 'Telegram',
+                link: 'https://t.me/in_the_underworld',
+                src: telegram
+            },
+            {
+                id: 3,
+                title: 'LinkedIn',
+                link: 'https://www.linkedin.com/in/severuna/',
+                src: linkedin
+            },
+        ]
     },
     experience: {
         title: 'experience',

@@ -13,5 +13,5 @@
 .skill-title {
     font-size: 4rem;
     text-transform: capitalize;
-    color: #FFDE69;
+    color: var(--color-green);
 }
