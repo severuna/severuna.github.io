@@ -1,0 +1,17 @@
+.skill {
+    gap: 3rem;
+    align-items: center;
+}
+
+.skill-img {
+    width: 10rem;
+    background-color: rgb(247, 239, 239);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.skill-title {
+    font-size: 4rem;
+    text-transform: capitalize;
+    color: #FFDE69;
+}

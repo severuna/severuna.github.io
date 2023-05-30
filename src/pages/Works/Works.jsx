@@ -13,7 +13,8 @@ const Works = ( ) => {
 
     WORKS_LIST.list.forEach((element) => {
         elements.push(<WorkItem key={element.id} {...element} />)
-    })
+    });
+    
     return (
         <div className={`${style.page} column`}>
             <Title variant={WORKS_LIST.title}/>

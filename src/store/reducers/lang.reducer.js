@@ -8,6 +8,16 @@ import login_2 from '../../assets/img/login_2.png';
 import login_3 from '../../assets/img/login_3.png';
 import styled_1 from '../../assets/img/styled_1.png';
 import styled_2 from '../../assets/img/styled_2.png';
+import react from '../../assets/img/react.svg';
+import css from '../../assets/img/css.svg';
+import en from '../../assets/img/en.svg';
+import ua from '../../assets/img/ua.svg';
+import html from '../../assets/img/html.svg';
+import js from '../../assets/img/javascript.svg';
+import redux from '../../assets/img/redux.svg';
+import router from '../../assets/img/router.svg';
+import sass from '../../assets/img/sass.svg';
+import sc from '../../assets/img/styled-components.svg';
 
 const UA_LANG = {
     nav: ['домашня', 'роботи', 'навички', 'досвід', 'контакти'],
@@ -23,6 +33,58 @@ const UA_LANG = {
     },
     skills:  {
         title: 'навички',
+        list: [
+            {
+                id: 0,
+                title: 'react',
+                src: react
+            },
+            {
+                id: 1,
+                title: 'redux',
+                src: redux
+            },
+            {
+                id: 2,
+                title: 'router',
+                src: router
+            },
+            {
+                id: 3,
+                title: 'styled components',
+                src: sc
+            },
+            {
+                id: 4,
+                title: 'css',
+                src: css
+            },
+            {
+                id: 5,
+                title: 'sass',
+                src: sass
+            },
+            {
+                id: 6,
+                title: 'html',
+                src: html
+            },
+            {
+                id: 7,
+                title: 'JavaScript',
+                src: js
+            },
+            {
+                id: 8,
+                title: 'Ukrainian - Native',
+                src: ua
+            },
+            {
+                id: 8,
+                title: 'English - Pre-intermediate',
+                src: en
+            },
+        ]
     },
     works: {
         title: 'роботи',
@@ -78,6 +140,58 @@ const ENG_LANG = {
     },
     skills:  {
         title: 'skills',
+        list: [
+            {
+                id: 0,
+                title: 'react',
+                src: react
+            },
+            {
+                id: 1,
+                title: 'redux',
+                src: redux
+            },
+            {
+                id: 2,
+                title: 'router',
+                src: router
+            },
+            {
+                id: 3,
+                title: 'styled components',
+                src: sc
+            },
+            {
+                id: 4,
+                title: 'css',
+                src: css
+            },
+            {
+                id: 5,
+                title: 'sass',
+                src: sass
+            },
+            {
+                id: 6,
+                title: 'html',
+                src: html
+            },
+            {
+                id: 7,
+                title: 'JavaScript',
+                src: js
+            },
+            {
+                id: 8,
+                title: 'Ukrainian - Native',
+                src: ua
+            },
+            {
+                id: 8,
+                title: 'English - Pre-intermediate',
+                src: en
+            },
+        ]
     },
     works: {
         title: 'works',
