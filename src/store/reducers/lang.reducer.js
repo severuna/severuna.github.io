@@ -60,6 +60,59 @@ const UA_LANG = {
     },
     experience: {
         title: 'досвід',
+        work: [
+            {
+                id: 0,
+                title: 'Кур`єр',
+                place: 'Фріланс',
+                description: 'Доставка замовлень з різних закладів в обумовлені терміни.',
+                time: '2019 - 2022'
+            },
+            {
+                id: 1,
+                title: 'Продавець-консультант',
+                place: 'Фріланс',
+                description: 'Консультування клієнтів, визначення потреб клієнтів, збільшення продажів і дотримання стандартів',
+                time: '2018 - 2019'
+            },
+            {
+                id: 2,
+                title: 'Чергова по залізничній станції',
+                place: 'Укрзалізниця',
+                description: `Обов’язки передбачають управління та координацію всіх дій із об’єднання рухомого складу в поїзди, розкладання поїздів на окремі залізничні вагони та переведення поїздів з колії на колію на залізничній станції`,
+                time: '2015 - 2018'
+            },
+        ],
+        edu: [
+            {
+                id: 0,
+                title: 'CURSOR EDUCATION',
+                spec: 'FRONT-END ADVANCED',
+                description: 'Поглиблене вивчення Javascript, React, Redux, Typescript та інших технологій.',
+                time: '2023'
+            },
+            {
+                id: 1,
+                title: 'ITEA',
+                spec: 'FRONT-END',
+                description: 'Вивчення HTML, CSS, препроцесорів, різних типів верстки, JavaScript',
+                time: '2022 - 2023'
+            },
+            {
+                id: 2,
+                title: 'Український державний університет залізничного транспорту',
+                spec: '«Управління процесами перевезень',
+                description: 'Поглиблене вивчення управління перевізними процесами на залізничному транспорті.',
+                time: '2016 - 2018'
+            },
+            {
+                id: 3,
+                title: 'Харківський коледж транспортних технологій',
+                spec: 'Організація перевезень',
+                description: 'Вивчення технологій і засобів залізничного транспорту, управління та організації перевезень.',
+                time: '2012 - 2016'
+            },
+        ]
     },
     skills:  {
         title: 'навички',
@@ -193,6 +246,59 @@ const ENG_LANG = {
     },
     experience: {
         title: 'experience',
+        work: [
+            {
+                id: 0,
+                title: 'Courier',
+                place: 'Freelance',
+                description: 'Delivery of orders from various establishments within the specified time.',
+                time: '2019 to 2022'
+            },
+            {
+                id: 1,
+                title: 'Seller-consultant',
+                place: 'Freelance',
+                description: 'Consulting customers, identifying customer needs, increasing sales and meeting standards',
+                time: '2018 to 2019'
+            },
+            {
+                id: 2,
+                title: 'Assistant station master',
+                place: 'Ukrainian Railways',
+                description: 'Duties involve managing and coordinating all activities in combining rolling stock into trains, breaking down trains into individual railroad cars, and switching trains from track to track in the rail yard',
+                time: '2015 to 2018'
+            },
+        ],
+        edu: [
+            {
+                id: 0,
+                title: 'CURSOR EDUCATION',
+                spec: 'FRONT-END ADVANCED',
+                description: 'In-depth study of Javascript, React, Redux, Typescript and other technologies.',
+                time: '2023'
+            },
+            {
+                id: 1,
+                title: 'ITEA',
+                spec: 'FRONT-END',
+                description: 'Study of HTML, CSS, preprocessors, various types of layout, JavaScript',
+                time: '2022 to 2023'
+            },
+            {
+                id: 2,
+                title: 'Ukrainian state university of railway transport',
+                spec: 'Management',
+                description: 'In-depth study of the management of transportation processes on railway transport.',
+                time: '2016 to 2018'
+            },
+            {
+                id: 3,
+                title: 'Kharkiv College of Transport Technologies',
+                spec: 'Management',
+                description: 'Study of technologies and means of railway transport, management and organization of transportation.',
+                time: '2012 to 2018'
+            },
+        ]
     },
     skills:  {
         title: 'skills',

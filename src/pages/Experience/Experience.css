@@ -1,0 +1,10 @@
+.experience-container {
+    gap: 2rem;
+}
+
+.experience-title {
+    color: var(--color-green);
+    font-size: 4rem;
+    font-weight: var(--subtitle-fw);
+    text-align: center;
+}

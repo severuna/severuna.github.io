@@ -1,0 +1,17 @@
+.experience-item {
+    gap: 1rem;
+}
+
+.experience-item__title {
+    font-size: 3rem;
+    color: #FFDE69;
+}
+
+.experience-item__container {
+    gap: 3rem;
+    font-size: 2rem;
+}
+
+.experience-item__description {
+    font-size: 2.5rem;
+}

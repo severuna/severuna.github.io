@@ -2,14 +2,36 @@ import React from 'react';
 import style from '../module/Page.module.css';
 import Title from '../module/Title/Title';
 import { useSelector } from 'react-redux';
+import ExperienceItem from './ExperienceItem/ExperienceItem';
+import './Experience.css';
 
 const Experience = () => {
 
-    const title = useSelector((state) => state.lang.experience.title); 
+    const EXPERIENCE_LIST = useSelector((state) => state.lang.experience); 
+
+    let work = [];
+
+    EXPERIENCE_LIST.work.forEach((element) => {
+        work.push(<ExperienceItem key={element.id + Math.random()} {...element} />);
+    });
+
+    let edu = [];
+
+    EXPERIENCE_LIST.edu.forEach((element) => {
+        edu.push(<ExperienceItem key={element.id + Math.random()} {...element} />);
+    });
 
     return (
         <div className={`${style.page} column`}>
-            <Title variant={title}/>
+            <Title variant={EXPERIENCE_LIST.title}/>
+            <div className='experience-container column'>
+                <h2 className='experience-title'>Works</h2>
+                {work}
+            </div>
+            <div className='experience-container column'>
+                <h2 className='experience-title'>Education</h2>
+                {edu}
+            </div>
         </div>
     );
 };
