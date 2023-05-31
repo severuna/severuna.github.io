@@ -26,3 +26,18 @@
 .home-img {
     width: 45%;
 }
+
+.home-text__links {
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home-text__link {
+    width: 20rem;
+    background-color: var(--color-green);
+    font-size: 3rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: var(--color-black);
+}
