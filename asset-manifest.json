@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.05100884.css",
-    "main.js": "/static/js/main.c83f1bd5.js",
+    "main.css": "/static/css/main.cf820628.css",
+    "main.js": "/static/js/main.d1c897ad.js",
     "static/media/oxygen_1.png": "/static/media/oxygen_1.f2b74a071d2a8b6bf646.png",
     "static/media/oxygen_2.png": "/static/media/oxygen_2.7ea44ac2decc6516cc2a.png",
     "static/media/oxygen_3.png": "/static/media/oxygen_3.49cde78c16fb2ea8011f.png",
     "static/media/oxygen_4.png": "/static/media/oxygen_4.64bebd5d19a8a2e7aca3.png",
     "static/media/oxygen_5.png": "/static/media/oxygen_5.dfb15733e9dfd05c653a.png",
+    "static/media/CV_Oksana_Fomenkova_Front-end_React_Developer.pdf": "/static/media/CV_Oksana_Fomenkova_Front-end_React_Developer.3500a2acfc27b01c2a61.pdf",
     "static/media/home_img.svg": "/static/media/home_img.9f523cc256d25be47f9e6abe98049f93.svg",
     "static/media/login_2.png": "/static/media/login_2.5440b191b1874b20ef5a.png",
     "static/media/login_3.png": "/static/media/login_3.5a0c83825569e2272036.png",
@@ -28,11 +29,11 @@
     "static/media/css.svg": "/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html.svg": "/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
     "static/media/ua.svg": "/static/media/ua.3c87966742b1727db57ed4c7ede65c89.svg",
-    "main.05100884.css.map": "/static/css/main.05100884.css.map",
-    "main.c83f1bd5.js.map": "/static/js/main.c83f1bd5.js.map"
+    "main.cf820628.css.map": "/static/css/main.cf820628.css.map",
+    "main.d1c897ad.js.map": "/static/js/main.d1c897ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.05100884.css",
-    "static/js/main.c83f1bd5.js"
+    "static/css/main.cf820628.css",
+    "static/js/main.d1c897ad.js"
   ]
 }
