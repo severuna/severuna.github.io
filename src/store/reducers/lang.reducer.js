@@ -164,7 +164,7 @@ const UA_LANG = {
             },
             {
                 id: 8,
-                title: 'English - Pre-intermediate',
+                title: 'English - Intermediate',
                 src: en
             },
         ]
@@ -350,7 +350,7 @@ const ENG_LANG = {
             },
             {
                 id: 8,
-                title: 'English - Pre-intermediate',
+                title: 'English - Intermediate',
                 src: en
             },
         ]
