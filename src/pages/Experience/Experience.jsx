@@ -25,11 +25,11 @@ const Experience = () => {
         <div className={`${style.page} column`}>
             <Title variant={EXPERIENCE_LIST.title}/>
             <div className='experience-container column'>
-                <h2 className='experience-title'>Works</h2>
+                <h2 className='experience-title'>{EXPERIENCE_LIST.subtitle[0]}</h2>
                 {work}
             </div>
             <div className='experience-container column'>
-                <h2 className='experience-title'>Education</h2>
+                <h2 className='experience-title'>{EXPERIENCE_LIST.subtitle[1]}</h2>
                 {edu}
             </div>
         </div>

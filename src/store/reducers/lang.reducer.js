@@ -60,23 +60,31 @@ const UA_LANG = {
     },
     experience: {
         title: 'досвід',
+        subtitle: ['Робота', 'Навчання'],
         work: [
             {
                 id: 0,
+                title: 'Front-end (React) developer',
+                place: 'CURSOR EDUCATION',
+                description: 'Розвиток власного портфоліо. Використовувані технології - React, React Router, Redux',
+                time: '2023'
+            },
+            {
+                id: 1,
                 title: 'Кур`єр',
                 place: 'Фріланс',
                 description: 'Доставка замовлень з різних закладів в обумовлені терміни.',
                 time: '2019 - 2022'
             },
             {
-                id: 1,
+                id: 2,
                 title: 'Продавець-консультант',
                 place: 'Фріланс',
                 description: 'Консультування клієнтів, визначення потреб клієнтів, збільшення продажів і дотримання стандартів',
                 time: '2018 - 2019'
             },
             {
-                id: 2,
+                id: 3,
                 title: 'Чергова по залізничній станції',
                 place: 'Укрзалізниця',
                 description: `Обов’язки передбачають управління та координацію всіх дій із об’єднання рухомого складу в поїзди, розкладання поїздів на окремі залізничні вагони та переведення поїздів з колії на колію на залізничній станції`,
@@ -246,23 +254,31 @@ const ENG_LANG = {
     },
     experience: {
         title: 'experience',
+        subtitle: ['Work', 'Education'],
         work: [
             {
                 id: 0,
+                title: 'Front-end (React) developer',
+                place: 'CURSOR EDUCATION',
+                description: 'Development of own portfolio. Technologies used are React, React Router, Redux.',
+                time: '2023'
+            },
+            {
+                id: 1,
                 title: 'Courier',
                 place: 'Freelance',
                 description: 'Delivery of orders from various establishments within the specified time.',
                 time: '2019 to 2022'
             },
             {
-                id: 1,
+                id: 2,
                 title: 'Seller-consultant',
                 place: 'Freelance',
                 description: 'Consulting customers, identifying customer needs, increasing sales and meeting standards',
                 time: '2018 to 2019'
             },
             {
-                id: 2,
+                id: 3,
                 title: 'Assistant station master',
                 place: 'Ukrainian Railways',
                 description: 'Duties involve managing and coordinating all activities in combining rolling stock into trains, breaking down trains into individual railroad cars, and switching trains from track to track in the rail yard',
