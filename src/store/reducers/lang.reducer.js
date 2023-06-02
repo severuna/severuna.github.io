@@ -8,6 +8,13 @@ import login_2 from '../../assets/img/login_2.png';
 import login_3 from '../../assets/img/login_3.png';
 import styled_1 from '../../assets/img/styled_1.png';
 import styled_2 from '../../assets/img/styled_2.png';
+import swapi_1 from '../../assets/img/swapi_1.png';
+import swapi_2 from '../../assets/img/swapi_2.png';
+import swapi_3 from '../../assets/img/swapi_3.png';
+import swapi_4 from '../../assets/img/swapi_4.png';
+import dash_1 from '../../assets/img/dash_1.png';
+import dash_2 from '../../assets/img/dash_2.png';
+import dash_3 from '../../assets/img/dash_3.png';
 import react from '../../assets/img/react.svg';
 import css from '../../assets/img/css.svg';
 import en from '../../assets/img/en.svg';
@@ -22,6 +29,8 @@ import linkedin from '../../assets/img/linkedin.svg';
 import telegram from '../../assets/img/telegram.svg';
 import mail from '../../assets/img/mail.svg';
 import tel from '../../assets/img/tel.svg';
+import bootstrap from '../../assets/img/bootstrap.svg';
+import api from '../../assets/img/api.svg';
 
 const UA_LANG = {
     nav: ['домашня', 'роботи', 'навички', 'досвід', 'контакти'],
@@ -167,11 +176,21 @@ const UA_LANG = {
             },
             {
                 id: 8,
+                title: 'Bootstrap',
+                src: bootstrap
+            },
+            {
+                id: 9,
+                title: 'REST API',
+                src: api
+            },
+            {
+                id: 10,
                 title: 'Ukrainian - Native',
                 src: ua
             },
             {
-                id: 8,
+                id: 11,
                 title: 'English - Intermediate',
                 src: en
             },
@@ -212,6 +231,28 @@ const UA_LANG = {
                 },
                 tools: ['react', 'react router', 'styled components'],
                 description: 'Форма логіну та реєстрації, виконана з використанням React Router & Styled components.'
+            },
+            {
+                id: 3,
+                title: 'Swapi',
+                imgs: [swapi_1, swapi_2, swapi_3, swapi_4],
+                src: {
+                    github: 'https://github.com/severuna/swapi',
+                    live: 'https://severuna.github.io/swapi/'
+                },
+                tools: ['react', 'react router', 'rest api'],
+                description: 'Вивод інформації, отриманії зі SWAPI (The Star Wars API). Виконана з використанням технологій React, React Router & REST API.'
+            },
+            {
+                id: 4,
+                title: 'Dashboard',
+                imgs: [dash_1, dash_2, dash_3],
+                src: {
+                    github: 'https://github.com/severuna/dashboard',
+                    live: 'https://severuna.github.io/dashboard/'
+                },
+                tools: ['react', 'react router', 'bootstrap', 'bootstrap icons'],
+                description: 'Проста інформаційна панель із використанням технологій React, React Router, Bootstrap та Bootstrap Icons'
             },
         ]
     },
@@ -361,11 +402,21 @@ const ENG_LANG = {
             },
             {
                 id: 8,
+                title: 'Bootstrap',
+                src: bootstrap
+            },
+            {
+                id: 9,
+                title: 'REST API',
+                src: api
+            },
+            {
+                id: 10,
                 title: 'Ukrainian - Native',
                 src: ua
             },
             {
-                id: 8,
+                id: 11,
                 title: 'English - Intermediate',
                 src: en
             },
@@ -406,6 +457,28 @@ const ENG_LANG = {
                 },
                 tools: ['react', 'react router', 'styled components'],
                 description: 'Login and registration form made using React Router & Styled components.'
+            },
+            {
+                id: 3,
+                title: 'Swapi',
+                imgs: [swapi_1, swapi_2, swapi_3, swapi_4],
+                src: {
+                    github: 'https://github.com/severuna/swapi',
+                    live: 'https://severuna.github.io/swapi/'
+                },
+                tools: ['react', 'react router', 'rest api'],
+                description: 'Output of information obtained from SWAPI (The Star Wars API). Made using React, React Router & REST API technologies.'
+            },
+            {
+                id: 4,
+                title: 'Dashboard',
+                imgs: [dash_1, dash_2, dash_3],
+                src: {
+                    github: 'https://github.com/severuna/dashboard',
+                    live: 'https://severuna.github.io/dashboard/'
+                },
+                tools: ['react', 'react router', 'bootstrap', 'bootstrap icons'],
+                description: 'A simple dashboard using React, React Router, Bootstrap and Bootstrap Icons technologies'
             },
         ]
     },

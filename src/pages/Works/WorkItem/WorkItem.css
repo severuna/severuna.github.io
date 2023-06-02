@@ -8,9 +8,11 @@
 }
 
 .work-img {
-    width: 60%;
-    background-size: cover;
-    background-position: center;
+    width: 100%;
+    max-width: 60rem;
+    height: auto;
+    min-width: 30rem;
+    max-height: 100rem;
     transition: all 1s easy;
     border-radius: 1rem;
 }

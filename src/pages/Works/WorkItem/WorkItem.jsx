@@ -18,7 +18,7 @@ const WorkItem = ( props ) => {
             }
         }, 2500);
             return () => clearInterval(interval);
-    }, [imageCounter]);
+    }, [work_images.length, imageCounter]);
 
     let tools = [];
 
@@ -33,7 +33,7 @@ const WorkItem = ( props ) => {
 
     return (
         <div className='work row'>
-            <div style={{backgroundImage : `url(${work_images[imageCounter]})`}} className='work-img' />
+            <img className='work-img' src={work_images[imageCounter]} alt='' />
             <div className='work-description column'>
                 <h2 className='work-description__title'>{props.title}</h2>
                 <p className='work-description__subtitle'>{props.description}</p>
