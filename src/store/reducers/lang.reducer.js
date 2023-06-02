@@ -31,15 +31,22 @@ import mail from '../../assets/img/mail.svg';
 import tel from '../../assets/img/tel.svg';
 import bootstrap from '../../assets/img/bootstrap.svg';
 import api from '../../assets/img/api.svg';
+import home from '../../assets/img/home.svg';
+import contact from '../../assets/img/contact.svg';
+import edu from '../../assets/img/edu.svg';
+import skills from '../../assets/img/skills.svg';
+import code from '../../assets/img/code.svg';
 
 const UA_LANG = {
     nav: ['домашня', 'роботи', 'навички', 'досвід', 'контакти'],
     home: {
         title: 'домашня',
+        src: home,
         content: ['Я', 'Оксана Фоменкова', 'Front-End React Developer']
     },
     contacts: {
         title: 'контакти',
+        src: contact,
         list: [
             {
                 id: 0,
@@ -69,6 +76,7 @@ const UA_LANG = {
     },
     experience: {
         title: 'досвід',
+        src: edu,
         subtitle: ['Робота', 'Навчання'],
         work: [
             {
@@ -133,6 +141,7 @@ const UA_LANG = {
     },
     skills:  {
         title: 'навички',
+        src: skills,
         list: [
             {
                 id: 0,
@@ -198,6 +207,7 @@ const UA_LANG = {
     },
     works: {
         title: 'роботи',
+        src: code,
         list: [
             {
                 id: 0,
@@ -259,13 +269,15 @@ const UA_LANG = {
 }
 
 const ENG_LANG = {
-    nav: ['home', 'works', 'skills', 'experience', 'contacts'],
+    nav: ['home', 'works', 'skills', 'practice', 'contacts'],
     home: {
         title: 'home',
+        src: home,
         content: ['I`m', 'Oksana Fomenkova', 'Front-End React Developer']
     },
     contacts: {
         title: 'contacts',
+        src: contact,
         list: [
             {
                 id: 0,
@@ -294,7 +306,8 @@ const ENG_LANG = {
         ]
     },
     experience: {
-        title: 'experience',
+        title: 'practice',
+        src: edu,
         subtitle: ['Work', 'Education'],
         work: [
             {
@@ -359,6 +372,7 @@ const ENG_LANG = {
     },
     skills:  {
         title: 'skills',
+        src: skills,
         list: [
             {
                 id: 0,
@@ -424,6 +438,7 @@ const ENG_LANG = {
     },
     works: {
         title: 'works',
+        src: code,
         list: [
             {
                 id: 0,

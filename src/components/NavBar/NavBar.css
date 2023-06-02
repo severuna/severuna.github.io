@@ -29,10 +29,16 @@
     font-family: var(--main-ff);
     text-transform: uppercase;
     transition: all 1s ease;
+    width: 15rem;
+    gap: 1rem;
+}
+
+.header-item__img {
+    width: 3rem;
 }
 
 .active {
-    transform: scale(1.5);
+    transform: scale(1.2);
     font-weight: 700;
     text-decoration: none;
 }

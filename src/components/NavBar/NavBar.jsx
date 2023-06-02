@@ -33,11 +33,26 @@ const NavBar = () => {
                 <button className='lang-btn' onClick={(e) => selectENG(e)}>EN</button>
                 <button className='lang-btn' onClick={(e) => selectUA(e)}>UA</button>
             </div>
-            <NavLink to={`/`} className='header-item' activeClassName="active">{lang.nav[0]}</NavLink>
-            <NavLink to={`/works`} className='header-item'>{lang.nav[1]}</NavLink>
-            <NavLink to={`/skills`} className='header-item'>{lang.nav[2]}</NavLink>
-            <NavLink to={`/experience`} className='header-item'>{lang.nav[3]}</NavLink>
-            <NavLink to={`/contacts`} className='header-item'>{lang.nav[4]}</NavLink>
+            <NavLink to={`/`} className='header-item row' activeClassName="active">
+                <img src={lang.home.src} alt='' className='header-item__img' />
+                {lang.nav[0]}
+            </NavLink>
+            <NavLink to={`/works`} className='header-item row'>
+                <img src={lang.works.src} alt='' className='header-item__img' />
+                {lang.nav[1]}
+            </NavLink>
+            <NavLink to={`/skills`} className='header-item row'>
+                <img src={lang.skills.src} alt='' className='header-item__img' />
+                {lang.nav[2]}
+            </NavLink>
+            <NavLink to={`/experience`} className='header-item row'>
+                <img src={lang.experience.src} alt='' className='header-item__img' />
+                {lang.nav[3]}
+            </NavLink>
+            <NavLink to={`/contacts`} className='header-item row'>
+                <img src={lang.contacts.src} alt='' className='header-item__img' />
+                {lang.nav[4]}
+            </NavLink>
         </header>
     );
 };
