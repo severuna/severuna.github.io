@@ -71,3 +71,13 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 720px) {
+    .work {
+        flex-direction: column;
+    }
+
+    .work-description {
+        width: 100%;
+    }
+}

@@ -26,7 +26,7 @@
 .home-img {
     width: 45%;
     min-width: 30rem;
-    max-width: 100rem;
+    max-width: 80rem;
 }
 
 .home-text__links {
@@ -60,6 +60,35 @@
 
     .name {
         font-size: 3rem;
+    }
+
+    .home-text__links {
+        gap: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 721px) {
+    .home {
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .home-text {
+        gap: 2.5rem;
+    }
+
+    .home-text p {
+        font-size: 4rem;
+    }
+
+    .home-img {
+        width: max-content;
+    }
+
+    .name {
+        font-size: 5rem;
     }
 
     .home-text__links {

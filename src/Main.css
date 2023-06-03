@@ -11,3 +11,9 @@
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 720px) {
+    .main {
+        flex-direction: column;
+    }
+}

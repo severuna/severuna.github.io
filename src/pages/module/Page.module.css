@@ -16,3 +16,12 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 720px) {
+    .page {
+        padding: 14rem 3rem 3rem 3rem;
+        margin: 0;
+        max-width: 100vw;
+        width: 100%;
+    }
+}
