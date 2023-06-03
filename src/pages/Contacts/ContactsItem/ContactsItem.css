@@ -12,3 +12,10 @@
     font-weight: var(--subtitle-fw);
     font-size: 3rem;
 }
+
+@media screen and (max-width: 420px) {
+    .contact-title {
+        font-size: 2rem;
+        word-break: break-all;
+    }
+}

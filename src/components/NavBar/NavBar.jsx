@@ -35,23 +35,23 @@ const NavBar = () => {
             </div>
             <NavLink to={`/`} className='header-item row' activeClassName="active">
                 <img src={lang.home.src} alt='' className='header-item__img' />
-                {lang.nav[0]}
+                <p>{lang.nav[0]}</p>
             </NavLink>
             <NavLink to={`/works`} className='header-item row'>
                 <img src={lang.works.src} alt='' className='header-item__img' />
-                {lang.nav[1]}
+                <p>{lang.nav[1]}</p>
             </NavLink>
             <NavLink to={`/skills`} className='header-item row'>
                 <img src={lang.skills.src} alt='' className='header-item__img' />
-                {lang.nav[2]}
+                <p>{lang.nav[2]}</p>
             </NavLink>
             <NavLink to={`/experience`} className='header-item row'>
                 <img src={lang.experience.src} alt='' className='header-item__img' />
-                {lang.nav[3]}
+                <p>{lang.nav[3]}</p>
             </NavLink>
             <NavLink to={`/contacts`} className='header-item row'>
                 <img src={lang.contacts.src} alt='' className='header-item__img' />
-                {lang.nav[4]}
+                <p>{lang.nav[4]}</p>
             </NavLink>
         </header>
     );

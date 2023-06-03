@@ -1,6 +1,5 @@
 import React from 'react';
 import style from '../module/Page.module.css';
-import Title from '../module/Title/Title';
 import './Home.css';
 import home_img from './img/home_img.svg';
 import resume from '../../assets/files/CV_Oksana_Fomenkova_Front-end_React_Developer.pdf';
@@ -13,7 +12,6 @@ const Home = () => {
 
     return (
         <div className={`${style.page} column`}>
-            <Title variant={HOME_LIST.title} />
             <div className={`${style.content} home row`}>
                 <div className='home-text column'>
                     <p>{HOME_LIST.content[0]}</p>

@@ -25,12 +25,15 @@
 
 .home-img {
     width: 45%;
+    min-width: 30rem;
+    max-width: 100rem;
 }
 
 .home-text__links {
     width: 100%;
     justify-content: space-around;
     align-items: center;
+    gap: 2rem;
 }
 
 .home-text__link {
@@ -40,4 +43,26 @@
     border-radius: 1rem;
     padding: 1rem;
     color: var(--color-black);
+}
+
+@media screen and (max-width: 420px) {
+    .home{
+        flex-direction: column;
+    }
+
+    .home-text {
+        gap: 2rem;
+    }
+
+    .home-text p {
+        font-size: 2.5rem;
+    }
+
+    .name {
+        font-size: 3rem;
+    }
+
+    .home-text__links {
+        gap: 3rem;
+    }
 }

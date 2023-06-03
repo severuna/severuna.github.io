@@ -5,13 +5,14 @@
     border: 3px dashed rgba(167, 164, 164, 0.507);
     min-height: 40rem;
     border-radius: 1rem;
+    align-items: center;
 }
 
 .work-img {
     width: 100%;
     max-width: 60rem;
     height: auto;
-    min-width: 30rem;
+    min-width: 20rem;
     max-height: 100rem;
     transition: all 1s easy;
     border-radius: 1rem;
@@ -37,6 +38,7 @@
 .tools, .links {
     width: 100%;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .tools-item, .links-item{
@@ -58,4 +60,14 @@
 .links-item:hover {
     text-decoration: underline;
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 420px) {
+    .work {
+        flex-direction: column;
+    }
+
+    .work-description {
+        width: 100%;
+    }
 }
