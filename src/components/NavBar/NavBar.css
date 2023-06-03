@@ -44,37 +44,6 @@
     text-decoration: none;
 }
 
-@media screen and (max-width: 420px) {
-
-    .header {
-        width: 100%;
-        padding: 2rem;
-        flex-direction: row;
-        justify-content: space-around;
-        gap: 2rem;
-        height: 10rem;
-        border: none;
-        border-bottom: 3px dashed rgba(167, 164, 164, 0.507)
-    }
-
-    .header-item {
-        width: max-content;
-    }
-    
-    .lang {
-        flex-direction: row;
-        gap: 2rem;
-    }
-
-    .lang-btn {
-        font-size: 2rem;
-    }
-
-    .header-item p {
-        display: none;
-    }
-}
-
 @media screen and (max-width: 720px) {
 
     .header {
@@ -85,7 +54,7 @@
         gap: 2rem;
         height: 10rem;
         border: none;
-        border-bottom: 3px dashed rgba(167, 164, 164, 0.507)
+        border-bottom: 3px dashed rgba(167, 164, 164, 0.507);
     }
 
     .header-item {

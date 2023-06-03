@@ -6,12 +6,6 @@
     background-color: var(--color-black);
 }
 
-@media screen and (max-width: 420px) {
-    .main {
-        flex-direction: column;
-    }
-}
-
 @media screen and (max-width: 720px) {
     .main {
         flex-direction: column;

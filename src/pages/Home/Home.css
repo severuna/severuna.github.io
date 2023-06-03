@@ -46,13 +46,6 @@
 }
 
 @media screen and (max-width: 420px) {
-    .home{
-        flex-direction: column;
-    }
-
-    .home-text {
-        gap: 2rem;
-    }
 
     .home-text p {
         font-size: 2.5rem;
@@ -61,14 +54,10 @@
     .name {
         font-size: 3rem;
     }
-
-    .home-text__links {
-        gap: 3rem;
-    }
 }
 
 
-@media screen and (max-width: 721px) {
+@media screen and (max-width: 720px) {
     .home {
         flex-direction: column;
         justify-content:center;

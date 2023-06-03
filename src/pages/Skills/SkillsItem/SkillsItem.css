@@ -16,7 +16,7 @@
     color: var(--color-green);
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 720px) {
     .skill-img {
         width: 6rem;
     }

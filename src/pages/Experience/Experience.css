@@ -8,3 +8,10 @@
     font-weight: var(--subtitle-fw);
     text-align: center;
 }
+
+@media screen and (max-width: 420px) {
+
+    .experience-title{
+        font-size: 2.5rem;
+    }
+}
