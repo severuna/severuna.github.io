@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.74a8072f.css",
+    "main.css": "/static/css/main.f5deecc6.css",
     "main.js": "/static/js/main.a85cf890.js",
     "static/media/oxygen_1.png": "/static/media/oxygen_1.5f24844a915dddb3f8c3.png",
     "static/media/swapi_3.png": "/static/media/swapi_3.ff9d03fcd0370cffbb11.png",
@@ -43,11 +43,11 @@
     "static/media/css.svg": "/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html.svg": "/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
     "static/media/ua.svg": "/static/media/ua.3c87966742b1727db57ed4c7ede65c89.svg",
-    "main.74a8072f.css.map": "/static/css/main.74a8072f.css.map",
+    "main.f5deecc6.css.map": "/static/css/main.f5deecc6.css.map",
     "main.a85cf890.js.map": "/static/js/main.a85cf890.js.map"
   },
   "entrypoints": [
-    "static/css/main.74a8072f.css",
+    "static/css/main.f5deecc6.css",
     "static/js/main.a85cf890.js"
   ]
 }
